@@ -1,0 +1,68 @@
+.editContactForm {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    background-color:cadetblue;
+    width: 500px;
+    max-width: 100%;
+    padding: 20px;
+    margin-bottom: 20px;
+}
+
+form {
+    width: 100%;
+}
+
+.edit-input-container {
+    display: flex;
+    flex-direction: column;
+    width: 100%; 
+    margin-top: 20px; 
+}
+
+.edit-input-group {
+    display: flex;
+    flex-direction: column;
+    margin-bottom: 20px; 
+}
+
+.edit-button-group{
+    display: flex;
+    justify-content: center;
+    margin-bottom: 20px;
+}
+
+.edit-btn{
+    border-radius: 10px;
+    border:1px solid black;
+    width:100px;
+    height: 50px;
+    text-align: center;
+    font-size: 1rem;
+    background-color: thistle;
+    cursor: pointer;
+    opacity: 0.8;
+    box-shadow: 0 8px 16px 0 rgba(0,0,0,0.2), 0 6px 20px 0 rgba(0,0,0,0.19);
+}
+
+.save-btn:hover{
+    opacity: 1;
+  }
+
+label {
+    font-size: 1.5rem;
+    margin-bottom: 5px;
+    text-align: left;
+}
+
+input {
+    width: 100%; 
+    max-width: 450px; 
+    height: 32px;
+    border-radius: 5px;
+    border: 1px solid black;
+}
+
+.editMobileClass {
+    margin-top: 10px;
+}
